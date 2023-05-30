@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@types/node": "^18.11.16",
+    "esbuild": "^0.15.9",
+    "tsx": "^3.9.0",
+    "typescript": "^5.0.4"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "tsx test/"
+  },
+  "author": "Sam Thorogood <sam.thorogood@gmail.com>",
+  "license": "Apache-2.0"
+}
