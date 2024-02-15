@@ -28,7 +28,11 @@
     "allowImportingTsExtensions": true,
   },
   "include": [
+    "*.js",
+    "**/*.js",
     "*.ts",
     "**/*.ts",
+    "*.tsx",
+    "**/*.tsx",
   ],
 }
