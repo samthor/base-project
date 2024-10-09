@@ -1,12 +1,11 @@
 {
   "devDependencies": {
-    "@types/node": "^20.3.1"
+    "@types/node": "^22.7.5"
   },
   "type": "module",
   "scripts": {
-    "test": "tsx test/"
+    "test": "NODE_OPTIONS='--experimental-transform-types --disable-warning=ExperimentalWarning' node --test **/*.test.ts"
   },
   "private": true,
-  "author": "Sam Thorogood <sam.thorogood@gmail.com>",
   "license": "Apache-2.0"
 }

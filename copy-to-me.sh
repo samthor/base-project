@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Copies the contents of this folder (modulo some files) to another folder.
+# Call from the other folder.
+
 set -eu
 
 COPY_TO=$PWD
@@ -19,6 +22,7 @@ rsync -r -v \
   --exclude node_modules \
   --exclude \*.sh \
   --exclude .DS_Store \
+  --exclude pnpm-lock.yaml \
   . $COPY_TO
 
 echo "Done"
