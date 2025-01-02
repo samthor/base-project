@@ -23,6 +23,7 @@ rsync -r -v \
   --exclude \*.sh \
   --exclude .DS_Store \
   --exclude pnpm-lock.yaml \
+  --ignore-existing \
   . $COPY_TO
 
 echo "Done"
