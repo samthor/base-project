@@ -13,6 +13,9 @@
     "strict": true,
     "experimentalDecorators": true,
     "useDefineForClassFields": false,
-    "allowImportingTsExtensions": true
+    "allowImportingTsExtensions": true,
+
+    // need to explicitly specify node types
+    "types": ["node"]
   }
 }
